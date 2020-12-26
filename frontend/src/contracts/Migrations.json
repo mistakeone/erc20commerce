@@ -882,24 +882,18 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.6.2+commit.bacdbe57.Emscripten.clang"
+    "version": "0.6.2+commit.bacdbe57.Linux.g++"
   },
   "networks": {
-    "5777": {
-      "events": {},
-      "links": {},
-      "address": "0xFa4066995AC537eDda2350dc95eB45AA604F3ae5",
-      "transactionHash": "0x0cdfd948953cfa7ce6559ca6014ccad2dd2ded03c197d06d8435de708a97d12e"
-    },
     "1608867022373": {
       "events": {},
       "links": {},
-      "address": "0xB1e3C6cC9dD9A8107B61D238F5F36384D55B60fc",
-      "transactionHash": "0x92d2ba8294907900dc07062f903a929ab70f936ae7dd9b433f942ab479918578"
+      "address": "0x5221f09D352D161Cd2490B5F37e57F59F8E2D8B1",
+      "transactionHash": "0x768ad30ded8b1fb4abecd5a27496c1c86735a990c84b4b07240ac9eb26387c77"
     }
   },
   "schemaVersion": "3.3.1",
-  "updatedAt": "2020-12-25T05:07:10.035Z",
+  "updatedAt": "2020-12-25T11:22:43.156Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

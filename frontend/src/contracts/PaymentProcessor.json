@@ -1847,44 +1847,6 @@
     "version": "0.6.2+commit.bacdbe57.Linux.g++"
   },
   "networks": {
-    "5777": {
-      "events": {
-        "0x78eaebe37a28490ff43ed0e95bdc47de1587156ac0069b652e1d2d9f42464e98": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": false,
-              "internalType": "address",
-              "name": "payer",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "amount",
-              "type": "uint256"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "paymentId",
-              "type": "uint256"
-            },
-            {
-              "indexed": false,
-              "internalType": "uint256",
-              "name": "date",
-              "type": "uint256"
-            }
-          ],
-          "name": "PaymentDone",
-          "type": "event"
-        }
-      },
-      "links": {},
-      "address": "0xAC7162846636932b0ee534e9CFdA621393752d24",
-      "transactionHash": "0x22592a0118379e524faf37189fbfec4c8aaf27a2e6f762d89c407be45f814b40"
-    },
     "1608867022373": {
       "events": {
         "0x78eaebe37a28490ff43ed0e95bdc47de1587156ac0069b652e1d2d9f42464e98": {
@@ -1920,12 +1882,12 @@
         }
       },
       "links": {},
-      "address": "0x050D064e0E1dCEEE06839D07d85bbcD62bf4Cc10",
-      "transactionHash": "0xe0d796c0d114f67bad15c16429ddc76984fbfd6e6b4cc6f115b493792d1a4ea2"
+      "address": "0x3DEc9ca06C6dB9837e0b678aCEA5A775AFC77bcE",
+      "transactionHash": "0xaf6e9bf60184109071c0f588f65e6aa8b69b0ae38b3d3aa5317418ccbfc70b29"
     }
   },
   "schemaVersion": "3.3.1",
-  "updatedAt": "2020-12-25T05:07:10.033Z",
+  "updatedAt": "2020-12-25T11:22:43.154Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

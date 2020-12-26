@@ -7,6 +7,7 @@ contract PaymentProcessor {
     IERC20 public dai;
     // IERC20 public usdt;
     uint paymentCount;
+    // uint id;
     event PaymentDone(
         address payer,
         uint amount,
@@ -14,14 +15,14 @@ contract PaymentProcessor {
         uint date
     );
 
-    struct thePayment(
-        address payer,
-        uint amount,
-        uint paymentId,
-        uint date
-    );
+    // struct thePayment{
+    //     address payer;
+    //     uint amount;
+    //     uint paymentId;
+    //     uint date;
+    //     }
 
-    mapping (uint id=> thePayment) public view allPayments;
+    // mapping (id => thePayment) public allPayments;
 
     constructor(address adminAddress, address daiAddress) public {
         admin = adminAddress;
@@ -32,12 +33,12 @@ contract PaymentProcessor {
         dai.transferFrom(msg.sender, admin, amount);
         emit PaymentDone(msg.sender, amount, paymentId, block.timestamp);
         paymentCount++;
-        allPayments[paymentCount-1] = thePayment(msg.sender, amount, paymentId, block.timestamp);
+        // allPayments[paymentCount-1] = thePayment(msg.sender, amount, paymentId, block.timestamp);
 
     }
-    function lastPayment() external view returns (allPayments[paymentCount-1]) {
-        require(paymentCount>0, 'no payments recorded');
-        require(msg.sender == admin, 'not an admin');
+    // function lastPayment() external view returns (allPayments[paymentCount-1]) {
+    //     require(paymentCount>0, 'no payments recorded');
+    //     require(msg.sender == admin, 'not an admin');
 
-    }
+    // }
 }
